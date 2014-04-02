@@ -1,17 +1,17 @@
-# &lt;my-element&gt;
+# &lt;video-player&gt;
 
-> TODO: Write a project description
+> A Polymer video player element
 
 ## Demo
 
-[Check it live!](http://webcomponents.github.io/element-boilerplate)
+[Check it live!](http://addyosmani.github.io/video-player)
 
 ## Usage
 
 1. Install the component using [Bower](http://bower.io/):
 
     ```sh
-    $ bower install my-element --save
+    $ bower install video-player --save
     ```
 
 2. Import Web Components' polyfill:
@@ -23,13 +23,13 @@
 3. Import Custom Element:
 
     ```html
-    <link rel="import" href="bower_components/my-element/dist/my-element.html">
+    <link rel="import" href="bower_components/video-player/dist/video-player.html">
     ```
 
 4. Start using it!
 
     ```html
-    <my-element></my-element>
+    <video-player></video-player>
     ```
 
 ## Options
@@ -64,7 +64,7 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
 
     ```sh
     $ grunt build
-    $ bower register my-element https://github.com/you/my-element
+    $ bower register video-player https://github.com/you/video-player
     ```
 
 ## Contributing
