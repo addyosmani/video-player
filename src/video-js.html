@@ -1,14 +1,9 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<script src="../bower_components/videojs/dist/video-js/video.js"></script>
+<link rel="stylesheet" type="text/css" href="../bower_components/videojs/dist/video-js/video-js.css">
 
 <polymer-element name="video-js" attributes="width height preload poster">
     <template>
-        <link rel="import" href="../bower_components/videojs/dist/video-js/video.js">
-        <link rel="import" href="../bower_components/videojs/dist/video-js/video-js.css">
-        <style type="text/css">
-            :host {
-                display: block;
-            }
-        </style>
         <video class="video-js vjs-default-skin" id="myvideo" controls width="{{width}}" height="{{height}}" preload="{{preload}}" poster="{{poster}}">
             <content></content>
         </video>
@@ -19,7 +14,7 @@
             height: 264,
             preload: 'auto',
             poster: '',
-            attached: function() {
+            ready: function() {
                 videojs(this.$.myvideo);
             }
         });
