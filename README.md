@@ -36,7 +36,9 @@
 
 Attribute  | Options                   | Default             | Description
 ---        | ---                       | ---                 | ---
-`name`     | *string*                  | `World`             | Lorem ipsum
+`width`     | *integer*                  | `320`             | Width of the video
+`height`     | *integer*                  | `240`             | Height of the video
+`theme`     | *string*                  | `red`             | Which of the built-in themes to use (red/blue/green)
 
 ## Development
 
@@ -77,7 +79,7 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/webcomponents/element-boilerplate/releases).
+For detailed changelog, check [Releases](https://github.com/addyosmani/video-player/releases).
 
 ## License
 
