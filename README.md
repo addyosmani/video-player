@@ -1,4 +1,4 @@
-# &lt;video-player&gt;
+# &lt;video-player&gt; ![Bower version](https://badge.fury.io/bo/video-player.svg)
 
 > A Polymer video player element
 
