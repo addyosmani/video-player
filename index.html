@@ -9,8 +9,18 @@
 
     <!-- Importing Custom Elements -->
     <link rel="import" href="src/video-player.html">
+    
+    <style>
+    video-player {
+      opacity: 1;
+      transition: opacity 300ms;
+    }
+    video-player:unresolved {
+      opacity: 0;
+    }    
+    </style>
 </head>
-<body>
+<body unresolved>
 
     <!-- Using Custom Elements -->
 
