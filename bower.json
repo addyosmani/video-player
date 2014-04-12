@@ -1,22 +1,23 @@
 {
-    "name": "video-player",
-    "version": "0.1.0",
-    "description": "A Polymer video player element",
-    "authors": [
-        "Addy Osmani <addyosmani@gmail.com>"
-    ],
-    "license": "MIT",
-    "keywords": [
-        "polymer",
-        "web-components"
-    ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components"
-    ],
-    "dependencies": {
-        "platform": "Polymer/platform#~0.2.0",
-        "polymer": "Polymer/polymer#~0.2.0"
-    }
+  "name": "video-player",
+  "version": "0.1.0",
+  "description": "A Polymer video player element",
+  "authors": [
+    "Addy Osmani <addyosmani@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "platform": "Polymer/platform#~0.2.0",
+    "polymer": "Polymer/polymer#~0.2.0",
+    "videojs": "~4.5.1"
+  }
 }

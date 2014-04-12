@@ -22,6 +22,5 @@
   },
   "_source": "git://github.com/videojs/video.js.git",
   "_target": "~4.5.1",
-  "_originalSource": "videojs",
-  "_direct": true
+  "_originalSource": "videojs"
 }
